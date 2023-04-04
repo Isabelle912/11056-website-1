@@ -1,5 +1,7 @@
 h1 {
     color: rgb(136, 94, 101);
+    font-family:'Courier New', Courier, monospace;
+    font-size:300%;
     text-align: center;
 }
 
