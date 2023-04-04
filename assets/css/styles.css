@@ -1,14 +1,98 @@
-h1 {
-    color: rgb(136, 94, 101);
-    font-family:'Courier New', Courier, monospace;
-    font-size:300%;
+
+.background-main {
+    background-image: url(../images/redhill.png);
+    background-position: center, top;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top:0;
+    left: 0;
+    z-index: -1000;
+    background-size: cover;
+
+
+}
+
+
+.body-para {
     text-align: center;
+    padding-top: 70vh;
+    font-family: "futura-pt-1", "futura-pt-2", sans-serif;
+    font-size: 150%;
+
+
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+li {
+    display: inline;
 }
 
 
 
 
-p {
-    color: red;
+h1 {
+    color: rgb(0, 0, 0);
+    font-family: "futura-pt-1","futura-pt-2",sans-serif;
+    font-weight: bold;
+    font-size:500%;
     text-align: center;
+    -webkit-text-stroke: 2px rgb(255, 255, 255);
+    }
+
+
+
+
+
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: hsl(45, 3%, 31%);
+}
+ 
+li {
+float: right;
+}
+
+
+li a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+
+li a:hover {
+background-color: #111;
+}
+
+
+a {
+    font-family: "futura-pt-1","futura-pt-2",sans-serif;
+    color:rgb(255, 255, 255);
+
+
+}
+
+
+h2 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: "futura-pt-1","futura-pt-2",sans-serif;
+    font-size:large;
+    font-weight: bold;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
 }
