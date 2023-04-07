@@ -40,10 +40,6 @@ h1 {
     }
 
 
-
-
-
-
 ul {
 list-style-type: none;
 margin: 0;
@@ -83,14 +79,15 @@ h2 {
     color: rgb(255, 255, 255);
     text-align: center;
     font-family: "futura-pt-1","futura-pt-2",sans-serif;
-    font-size: 300;
+    font-size: 300%;
     font-weight: bold;
-    -webkit-text-stroke: 1px rgb(0, 0, 0);
+    -webkit-text-stroke: 2px rgb(0, 0, 0);
+    
 }
 
 .body-para {
     text-align: center;
-    padding-top: 70vh;
+    padding-top: 65vh;
     font-family: "futura-pt-1", "futura-pt-2", sans-serif;
     font-size: 200%;
     color: rgb( 245, 136, 159);
@@ -113,4 +110,8 @@ h2 {
     font-size: 150%;
     font-weight: 100;
     font-style: italic;
+}
+
+.events {
+    
 }
