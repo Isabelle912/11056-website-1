@@ -15,15 +15,6 @@
 }
 
 
-.body-para {
-    text-align: center;
-    padding-top: 70vh;
-    font-family: "futura-pt-1", "futura-pt-2", sans-serif;
-    font-size: 200%;
-
-
-}
-
 
 ul {
     list-style-type: none;
@@ -97,6 +88,15 @@ h2 {
     -webkit-text-stroke: 1px rgb(0, 0, 0);
 }
 
+.body-para {
+    text-align: center;
+    padding-top: 70vh;
+    font-family: "futura-pt-1", "futura-pt-2", sans-serif;
+    font-size: 200%;
+    color: rgb( 245, 136, 159);
+    -webkit-text-stroke: 1px rgb(235, 227, 227); 
+}
+
 .logo {
     display: block;
     margin-left: auto;
@@ -105,4 +105,12 @@ h2 {
     margin-right: auto;
     max-width: 100%;
     height: auto;
+}
+
+.intro {
+    text-align: center;
+    font-family: "futura-pt-1","futura-pt-2",sans-serif;
+    font-size: 150%;
+    font-weight: 100;
+    font-style: italic;
 }
