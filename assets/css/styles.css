@@ -110,8 +110,16 @@ h2 {
     font-size: 150%;
     font-weight: 100;
     font-style: italic;
+    letter-spacing: .1em;
 }
 
 .events {
-    
+    font-family: "futura-pt-1","futura-pt-2",sans-serif;
+    font-size: 200%;
+    text-align: center;
+    padding: 80px;
+    margin: 25px;
+    -webkit-text-stroke: 1px rgb(235, 227, 227); 
+    color: red;
+    font-weight: bold;
 }
