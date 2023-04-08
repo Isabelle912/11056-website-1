@@ -113,13 +113,99 @@ h2 {
     letter-spacing: .1em;
 }
 
+.hr { 
+    display: block;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 2px;
+border-color:rgb(245, 136, 159);
+} 
+
 .events {
     font-family: "futura-pt-1","futura-pt-2",sans-serif;
-    font-size: 200%;
+    font-size: 300%;
     text-align: center;
-    padding: 80px;
+    padding: 20px;
     margin: 25px;
-    -webkit-text-stroke: 1px rgb(235, 227, 227); 
-    color: red;
+    -webkit-text-stroke: 1px rgb(45, 3%, 31%); 
+    color: rgb(112, 135, 194);
     font-weight: bold;
 }
+
+.row {
+    margin: 8px -16px;
+  } 
+
+  .column {
+    float: left;
+    width: 33.3%;
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.imageone {
+    background-color: white;
+    padding: 25px;
+    text-align: center;
+    font-family: "futura-pt-1","futura-pt-2",sans-serif;
+}
+
+
+.imagetwo {
+    background-color: white;
+    padding: 25px;
+    text-align: center;
+    font-family: "futura-pt-1","futura-pt-2",sans-serif;
+    
+}
+
+
+.imagethree {
+    background-color: white;
+    padding: 25px;
+    text-align: center;
+    font-family: "futura-pt-1","futura-pt-2",sans-serif;
+    
+  }
+
+
+  .imagefour {
+    background-color: white;
+    padding: 25px;
+    text-align: center;
+    font-family: "futura-pt-1","futura-pt-2",sans-serif;
+    float:left;
+  }
+
+h3 {
+    font-size: 24px;
+    letter-spacing: .1em;
+}
+
+  p {
+    font-size: 20px;
+    letter-spacing: .1em;
+  }
+
+
+  @media screen and (max-width: 900px) {
+    .column {
+      width: 50%;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  } 
+ 
+
+    
