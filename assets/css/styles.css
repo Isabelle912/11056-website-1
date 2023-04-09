@@ -235,6 +235,16 @@ h3 {
    font-size: 2vw;
    }
 
+   .facebook {
+    text-align: center;
+  }
 
+  .abouttitle {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: "futura-pt-1","futura-pt-2",sans-serif;
+    font-size: 300%;
+    font-weight: bold;
+  }
 
    
