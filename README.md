@@ -1,2 +1,2 @@
 # 11056-website
- wweb for front-end
+ web for front-end
