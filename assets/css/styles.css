@@ -34,7 +34,7 @@ h1 {
     color: rgb(0, 0, 0);
     font-family: "futura-pt-1","futura-pt-2",sans-serif;
     font-weight: bold;
-    font-size:500%;
+    font-size: 5vw;
     text-align: center;
     -webkit-text-stroke: 2px rgb(255, 255, 255);
     }
@@ -76,22 +76,24 @@ a {
 
 
 h2 {
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     text-align: center;
     font-family: "futura-pt-1","futura-pt-2",sans-serif;
     font-size: 300%;
     font-weight: bold;
-    -webkit-text-stroke: 2px rgb(0, 0, 0);
+    -webkit-text-stroke: 2px rgb(255, 255, 255);
     
 }
 
 .body-para {
     text-align: center;
     padding-top: 65vh;
+    padding-bottom: 5vh;
     font-family: "futura-pt-1", "futura-pt-2", sans-serif;
-    font-size: 200%;
+    font-size: 5vw;
     color: rgb( 245, 136, 159);
-    -webkit-text-stroke: 1px rgb(235, 227, 227); 
+    -webkit-text-stroke: 1px rgb(0, 0, 0); 
+    font-weight: bold;
 }
 
 .logo {
@@ -126,13 +128,13 @@ border-color:rgb(245, 136, 159);
 
 .events {
     font-family: "futura-pt-1","futura-pt-2",sans-serif;
-    font-size: 300%;
+    font-size: 5vw;
     text-align: center;
     padding: 20px;
     margin: 25px;
-    -webkit-text-stroke: 1px rgb(45, 3%, 31%); 
     color: rgb(112, 135, 194);
     font-weight: bold;
+    -webkit-text-stroke: 1px rgb(0, 0, 0); 
 }
 
 .row {
@@ -176,14 +178,6 @@ border-color:rgb(245, 136, 159);
   }
 
 
-  .imagefour {
-    background-color: white;
-    padding: 25px;
-    text-align: center;
-    font-family: "futura-pt-1","futura-pt-2",sans-serif;
-    float:left;
-  }
-
 h3 {
     font-size: 24px;
     letter-spacing: .1em;
@@ -194,6 +188,20 @@ h3 {
     letter-spacing: .1em;
   }
 
+.button1 {
+  background-color: rgb(112, 135, 194);
+  border: none;
+  color: white;
+  font-family: "futura-pt-1","futura-pt-2",sans-serif;
+  padding: 20px 34px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20dvw;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-size: 2vw;
+}
 
   @media screen and (max-width: 900px) {
     .column {
