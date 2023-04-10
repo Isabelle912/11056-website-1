@@ -236,7 +236,16 @@ h3 {
    }
 
    .facebook {
-    text-align: center;
+    box-align: center;
+    width: 3vw;
+    height: 3vw;
+
+  }
+
+  .instagram {
+    box-align: center;
+    width: 3vw;
+    height: 3vw;
   }
 
   .abouttitle {
