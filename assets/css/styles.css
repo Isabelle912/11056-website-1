@@ -245,6 +245,22 @@ h3 {
     font-family: "futura-pt-1","futura-pt-2",sans-serif;
     font-size: 300%;
     font-weight: bold;
+    padding-bottom: 35px;
   }
 
-   
+ .founders{
+  display: block;
+    margin-left: auto;
+    width: 400px;
+    height: 400px;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+    padding-bottom: 5vw;
+}
+ 
+   .main-body {
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+   }
