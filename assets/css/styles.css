@@ -15,7 +15,6 @@
 }
 
 
-
 ul {
     list-style-type: none;
     margin: 0;
@@ -249,12 +248,13 @@ h3 {
   }
 
   .abouttitle {
-    color: rgb(0, 0, 0);
+    color: rgb( 245, 136, 159);
     text-align: center;
     font-family: "futura-pt-1","futura-pt-2",sans-serif;
     font-size: 300%;
     font-weight: bold;
     padding-bottom: 35px;
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
   }
 
  .founders{
@@ -270,9 +270,34 @@ h3 {
  
    .main-body {
     text-align: center;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
     font-family: "futura-pt-1","futura-pt-2",sans-serif;
     font-size: 20px;
+    color:hsl(45, 3%, 31%);
    }
+
+.aboutbody {
+  background-color:rgb(252, 242, 184);
+}
+
+.titlecontact {
+  font-family: "futura-pt-1","futura-pt-2",sans-serif;
+  text-align: center;
+  font-size: 6vw;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+   
+.hr2 {
+  display: block;
+  margin-top: 1px;
+  margin-bottom: 3em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 2px;
+border-color:rgb(245, 136, 159);
+}
+
