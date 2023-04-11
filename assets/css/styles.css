@@ -49,8 +49,6 @@ ul {
 list-style-type: none;
 margin: 0;
 padding: 0;
-/* overflow: hidden; */
-/* display: inline; */
 }
  
 li {
@@ -318,25 +316,19 @@ border-color:rgb(245, 136, 159);
     padding: 0 4px;
   }
 
-  .column img {
-    margin-top: 8px;
-    vertical-align: middle;
-    width: 100%;
-  }
+.walking {
+  width:20px;
+  height: 20px;
+}
 
-  @media screen and (max-width: 800px) {
-    .column {
-      flex: 50%;
-      max-width: 50%;
-    }
-  }
+.drink {
 
-  @media screen and (max-width: 600px) {
-    .column {
-      flex: 100%;
-      max-width: 100%;
-    }
-  }
+}
+
+.cars {
+  
+}
+
 
   .navlogo {
     width:60px;
