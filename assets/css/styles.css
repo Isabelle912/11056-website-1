@@ -435,3 +435,29 @@ border-color:rgb(245, 136, 159);
     padding-bottom: 3vw;
     border-radius: 50%;
 }
+
+.footer2 {
+  height: 100px;
+  font-family: "futura-pt-1","futura-pt-2",sans-serif;
+  color: rgb(245, 136, 159);
+  padding: 20px;
+  background:hsl(45, 3%, 31%);
+  padding-right: auto;
+  padding-left: auto;
+  left:0px;
+  right: 0px;
+  bottom:0px;
+  height:150px;
+  flex-direction: column;
+  text-align: center;
+  font-size: 2vw;
+  outline-style: solid;
+  outline-color:rgb(112, 135, 194);
+  outline-width: 5px;
+}
+
+.waytofind {
+  color:black;
+  font-size: 2vw;
+  font-family: "futura-pt-1","futura-pt-2",sans-serif;
+}
