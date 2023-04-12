@@ -144,6 +144,12 @@ border-color:rgb(245, 136, 159);
   .column {
     float: left;
     width: 33.3%;
+    height: auto;
+    max-width: 100%;
+  }
+  
+  .column img {
+    max-width: 100%
   }
 
   .row:after {
@@ -165,7 +171,6 @@ border-color:rgb(245, 136, 159);
     padding: 25px;
     text-align: center;
     font-family: "futura-pt-1","futura-pt-2",sans-serif;
-    
 }
 
 
@@ -174,8 +179,10 @@ border-color:rgb(245, 136, 159);
     padding: 25px;
     text-align: center;
     font-family: "futura-pt-1","futura-pt-2",sans-serif;
-    
   }
+
+  
+  
 
 
 h3 {
@@ -202,6 +209,13 @@ h3 {
   cursor: pointer;
   font-size: 2vw;
 }
+
+
+@viewport {
+  width: device-width; 
+  zoom: 1.0;
+}
+
 
   @media screen and (max-width: 900px) {
     .column {
@@ -290,7 +304,6 @@ h3 {
     max-width: 100%;
     height: auto;
     padding-bottom: 3vw;
-    border-radius: 50%;
 }
  
    .main-body {
