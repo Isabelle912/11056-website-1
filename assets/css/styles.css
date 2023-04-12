@@ -243,10 +243,21 @@ h3 {
     box-align: center;
     width: 3vw;
     height: 3vw;
-
   }
 
   .instagram {
+    box-align: center;
+    width: 3vw;
+    height: 3vw;
+  }
+
+  .facebook2 {
+    box-align: center;
+    width: 3vw;
+    height: 3vw;
+  }
+
+  .instagram2 {
     box-align: center;
     width: 3vw;
     height: 3vw;
@@ -343,4 +354,16 @@ border-color:rgb(245, 136, 159);
  .emaillink {
   color:black;
   font-size: 20px;
+ }
+
+ .emailcontact {
+  text-align: center;
+  font-family: "futura-pt-1","futura-pt-2",sans-serif;
+ }
+
+ .contactsubheading {
+  text-align: center;
+  font-family: "futura-pt-1", "futura-pt-2", sans-serif;
+ outline-style: solid;
+ outline-color:rgb(245, 136, 159);
  }
