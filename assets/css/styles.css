@@ -7,11 +7,9 @@
     height: 100vh;
     position: absolute;
     top:0;
-    left: 0;
+    left:0%;
     z-index: -1000;
     background-size: cover;
-
-
 }
 
 
@@ -80,7 +78,7 @@ h2 {
     color: rgb(0, 0, 0);
     text-align: center;
     font-family: "futura-pt-1","futura-pt-2",sans-serif;
-    font-size: 300%;
+    font-size: 3vw;
     font-weight: bold;
     -webkit-text-stroke: 2px rgb(255, 255, 255);
     
@@ -140,7 +138,7 @@ border-color:rgb(245, 136, 159);
 }
 
 .row {
-    margin: 8px -16px;
+    padding: 5px;
   } 
 
   .column {
@@ -273,6 +271,16 @@ h3 {
     -webkit-text-stroke: 1px rgb(0, 0, 0);
   }
 
+  .aboutcanberra {
+    color: rgb( 245, 136, 159);
+    text-align: center;
+    font-family: "futura-pt-1","futura-pt-2",sans-serif;
+    font-size: 300%;
+    font-weight: bold;
+    padding-bottom: 35px;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+  }
+
  .founders{
   display: block;
     margin-left: auto;
@@ -364,4 +372,6 @@ border-color:rgb(245, 136, 159);
  .contactsubheading {
   text-align: center;
   font-family: "futura-pt-1", "futura-pt-2", sans-serif;
+  padding-bottom: 20px;
  }
+
