@@ -253,14 +253,14 @@ h3 {
 
   .facebook2 {
     box-align: center;
-    width: 3vw;
-    height: 3vw;
+    width: 80px;
+    height: 80px;
   }
 
   .instagram2 {
     box-align: center;
-    width: 3vw;
-    height: 3vw;
+    width: 80px;
+    height: 80px;
   }
 
   .abouttitle {
@@ -364,6 +364,4 @@ border-color:rgb(245, 136, 159);
  .contactsubheading {
   text-align: center;
   font-family: "futura-pt-1", "futura-pt-2", sans-serif;
- outline-style: solid;
- outline-color:rgb(245, 136, 159);
  }
