@@ -290,6 +290,7 @@ h3 {
     max-width: 100%;
     height: auto;
     padding-bottom: 3vw;
+    border-radius: 50%;
 }
  
    .main-body {
@@ -374,4 +375,6 @@ border-color:rgb(245, 136, 159);
   font-family: "futura-pt-1", "futura-pt-2", sans-serif;
   padding-bottom: 20px;
  }
+
+
 
