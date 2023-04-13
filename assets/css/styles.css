@@ -184,8 +184,7 @@ border-color:rgb(245, 136, 159);
     padding: 25px;
     text-align: center;
     font-family: "futura-pt-1","futura-pt-2",sans-serif;
-   max-width: 100%;
-   height: auto;
+   
   }
 
 
@@ -243,7 +242,7 @@ h3 {
    background:hsl(45, 3%, 31%);
    left:0px;
    right: 0px;
-   bottom:0px;
+   bottom:0;
    height:150px;
    flex-direction: column;
    text-align: center;
@@ -251,7 +250,13 @@ h3 {
    outline-style: solid;
    outline-color:rgb(112, 135, 194);
    outline-width: 5px;
+   clear: both;
+   position: relative;
    }
+
+  
+    
+   
 
    .facebook {
     box-align: center;
@@ -447,25 +452,6 @@ border-color:rgb(245, 136, 159);
     border-radius: 50%;
 }
 
-.footer2 {
-  height: 100px;
-  font-family: "futura-pt-1","futura-pt-2",sans-serif;
-  color: rgb(245, 136, 159);
-  padding: 20px;
-  background:hsl(45, 3%, 31%);
-  padding-right: auto;
-  padding-left: auto;
-  left:0px;
-  right: 0px;
-  bottom:0px;
-  height:150px;
-  flex-direction: column;
-  text-align: center;
-  font-size: 2vw;
-  outline-style: solid;
-  outline-color:rgb(112, 135, 194);
-  outline-width: 5px;
-}
 
 .waytofind {
   color:rgb(255, 255, 255);
