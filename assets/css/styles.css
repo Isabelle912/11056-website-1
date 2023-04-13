@@ -143,25 +143,23 @@ border-color:rgb(245, 136, 159);
 }
 
 .row {
-    padding: 5px;
-  } 
+  padding: 5px;
+} 
 
-  .column {
-    float: left;
-    width: 33%;
-    height: auto;
-    width: 100%;
-  }
-  
-  .column img {
-    width: 100%
-  }
+.column {
+  float: left;
+  width: 33.3%;
+}
 
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
+.column img {
+  max-width: 100%
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 .imageone {
     background-color: white;
@@ -259,13 +257,13 @@ h3 {
    
 
    .facebook {
-    box-align: center;
+    position: center;
     width: 3vw;
     height: 3vw;
   }
 
   .instagram {
-    box-align: center;
+    position: center;
     width: 3vw;
     height: 3vw;
   }
