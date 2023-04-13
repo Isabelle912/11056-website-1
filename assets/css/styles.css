@@ -266,15 +266,24 @@ h3 {
   }
 
   .facebook2 {
-    box-align: center;
-    width: 80px;
-    height: 80px;
+    display: block;
+    margin-left: auto;
+    width: 400px;
+    height: 400px;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+
   }
 
   .instagram2 {
-    box-align: center;
-    width: 80px;
-    height: 80px;
+    display: block;
+    margin-left: auto;
+    width: 400px;
+    height: 400px;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
   }
 
   .abouttitle {
@@ -405,6 +414,8 @@ border-color:rgb(245, 136, 159);
   margin-left: 50px;
   margin-right: 50px;
   font-weight: bold;
+  background-color:hsl(45, 3%, 31%);
+  color:rgb(255, 255, 255);
  }
 
  .contactsubheading {
@@ -457,7 +468,13 @@ border-color:rgb(245, 136, 159);
 }
 
 .waytofind {
-  color:black;
+  color:rgb(255, 255, 255);
   font-size: 2vw;
-  font-family: "futura-pt-1","futura-pt-2",sans-serif;
+  font-family: "futura-pt-1","futura-pt-2",sans-serif; 
+  text-align: center;
+  background-color:rgb(245, 136, 159);
+  padding-left: 50px;
+  padding-right: 50px;
 }
+
+
