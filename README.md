@@ -7,7 +7,7 @@ This project has been quite the challenge for me, as it was my first time coding
 
 
 **Lo-fi Prototypes**
-*(found in 11056 website folder)*
+![alt text](../11056-website-1/assets/images/Lo-fi%20Prototypes%20u3203200%2011056.png)
 My lo-fi prototypes were similar to my final website, with changes occurring in the ‘about us’ page. I added more information to the ‘about us’ page as it felt too small and did not contain enough information about Canberra Modern. I stuck to the design of my lo-fi prototypes, aside from some small elements, as I liked the style I had created, and it made it easier to code as a beginner by working off of a reference of the elements I wanted to include. 
 
 **Resources used:**
